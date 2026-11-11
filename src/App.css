@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'sans-serif';
+}
+
+.bg-container {
+  background-color: #0d1f0d;
+  height: 100vh;
+}
+
+.score {
+  text-align: end;
+  color: #ffffff;
+  font-family: 'sans-serif';
+  padding: 10px;
+}
+
+.digital-heading {
+  text-align: center;
+  font-family: 'sans-serif';
+}
+
+.span {
+  color: #a3e635;
+  font-family: 'sans-serif';
+}
+
+.container {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+.container-1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #a3e635;
+  padding: 20px;
+  margin: 20px;
+  text-align: start;
+}
+
+.para-1 {
+  font-family: 'sans-serif';
+  color: #ffffff;
+}
+
+.para-2 {
+  padding-top: 10px;
+  font-family: 'sans-serif';
+  color: #ffffff;
+}
+
+.btn {
+  margin: 7px;
+  padding: 7px;
+  border-color: #a3e635;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #0d1f0d;
+  font-family: 'sans-serif';
+  color: #ffffff;
+}
+
+.para-3 {
+  font-family: 'sans-serif';
+  color: #ffffff;
+}
+
+.para-4 {
+  padding: 20px;
+  margin-top: 10px;
+  border-color: #a3e635;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #0d1f0d;
+  font-family: 'sans-serif';
+  color: #ffffff;
+}
+
+.btn-1 {
+  margin-top: 10px;
+  background-color: #a3e635;
+  font-family: 'sans-serif';
+  color: #ffffff;
+  border-width: 1px;
+  border-style: none;
+  padding: 7px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.btn-2 {
+  margin-top: 10px;
+  background-color: #0d1f0d;
+  font-family: 'sans-serif';
+  color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #a3e635;
+  padding: 6px;
+  margin-left: 10px;
+}
+
+.container-2 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #a3e635;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.container-3 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.para-5 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.para-6 {
+  color: #16a34a;
+  font-family: 'sans-serif';
+}
+
+.para-7 {
+  color: #dc2626;
+  font-family: 'sans-serif';
+}
