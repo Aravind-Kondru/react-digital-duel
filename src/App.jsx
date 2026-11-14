@@ -6,8 +6,6 @@ function App() {
   const [randomNumber, setRandomNumber] = useState('')
   const [score, setScore] = useState(0)
   const [result, setResult] = useState('')
-  const [yourPick, setYourPick] = useState('')
-  const [randomPick, setRandomPick] = useState('')
   const [duplicateNum, setDuplicateNum] = useState('')
 
   return (
@@ -16,9 +14,11 @@ function App() {
         <h1 className="digital-heading">
           Digital <span className="span">Duel</span>
         </h1>
+        <p className='predictpara'>Predict . Match . Win</p>
 
         <div className="container">
           <div className="container-1">
+            <p className='play'>How to Play:</p>
             <p className="para-1">
               Choose any didit from one to nine. When you predict, a random
               number is drawn. Match it the score rises - miss and it fails.
@@ -100,14 +100,20 @@ function App() {
           <div className="container-2">
             <div className="container-3">
               <div className="para-5">
-                <p>
-                  {yourPick} <br /> {duplicateNum}
+                <p className='result-label'>
+                  Your Pick
+                </p>
+                <p className='result-label'>
+                  {duplicateNum}
                 </p>
               </div>
 
               <div className="para-5">
-                <p>
-                  {randomPick} <br /> {randomNumber}
+                <p className='result-label'>
+                  Random Pick
+                </p>
+                <p className='result-label'>
+                  {randomNumber}
                 </p>
               </div>
             </div>
