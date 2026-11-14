@@ -86,7 +86,8 @@ function App() {
                 setNum(''),
                 setRandomNumber(''),
                 setResult(''),
-                setDuplicateNum('')
+                setDuplicateNum(''),
+                setScore(0)
               )}
             >
               CLEAR
