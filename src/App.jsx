@@ -1,7 +1,7 @@
 import './App.css'
 import {useState} from 'react'
 
-const App = () => {
+function App() {
   const [num, setNum] = useState('')
   const [randomNumber, setRandomNumber] = useState('')
   const [score, setScore] = useState(0)
@@ -11,7 +11,6 @@ const App = () => {
   const [duplicateNum, setDuplicateNum] = useState('')
 
   return (
-    <>
       <div className="bg-container">
         <p className="score">Score: {score}</p>
         <h1 className="digital-heading">
@@ -117,9 +116,9 @@ const App = () => {
           </div>
         </div>
       </div>
-    </>
   )
 }
+
 
 export default App
 
