@@ -67,8 +67,6 @@ function App() {
               onClick={() => {
                 const number = Math.floor(Math.random() * 9) + 1
                 setRandomNumber(number)
-                setYourPick(<p>Your Pick</p>)
-                setRandomPick(<p>Random Pick</p>)
                 setDuplicateNum(num)
                 if (num === number) {
                   setScore(score + 1)
@@ -88,8 +86,6 @@ function App() {
                 setNum(''),
                 setRandomNumber(''),
                 setResult(''),
-                setYourPick(''),
-                setRandomPick(''),
                 setDuplicateNum('')
               )}
             >
