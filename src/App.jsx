@@ -1,5 +1,6 @@
 import './App.css'
 import {useState} from 'react'
+import { Analytics } from '@vercel/analytics/react'
 
 const App = () => {
   const [num, setNum] = useState('')
@@ -117,6 +118,7 @@ const App = () => {
           </div>
         </div>
       </div>
+      <Analytics />
     </>
   )
 }
